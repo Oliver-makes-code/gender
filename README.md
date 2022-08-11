@@ -1,8 +1,6 @@
-Hi thanks for looking at my gender, as you can see, it's empty.
+# Hi, thanks for looking at my gender!
 
 Make sure to abide by the the license.
 
-Also works on Forge
-
 ## PR Policy
-No thank you, I don't want a gender
+PRs need to be clear and consice, and need to document any and all changes made.
