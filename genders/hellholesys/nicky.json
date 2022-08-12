@@ -1,0 +1,11 @@
+{
+    "names": ["Nicky"],
+    "type": "transfeminine/female",
+    "presentation": {
+        "masc": 0.0,
+        "fem": 5.0,
+        "andro": 2.5,
+        "none": 2.5
+        },
+    "pronouns": ["she", "her", "hers"]
+}

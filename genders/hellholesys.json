@@ -1,0 +1,17 @@
+{
+    "names": ["hellhole system"],
+    "type": "system",
+    "presentation": {
+        "masc": 0.0,
+        "fem": 0.0,
+        "andro": 0.0,
+        "none": 0.0
+    },
+    "pronouns": ["they", "them", "theirs"],
+    "custom": {
+        "pkid": {
+            "title": "pluralkit system id",
+            "value": "ezlar"
+        }
+    }
+}
