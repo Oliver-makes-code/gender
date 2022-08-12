@@ -5,7 +5,7 @@
         "masc": 0.0,
         "fem": 0.5,
         "andro": 0.3,
-        "none": 0.2,
+        "none": 0.2
     },
     "pronouns": ["she", "they", "it"],
     "custom": {
