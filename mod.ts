@@ -21,5 +21,5 @@ serve(async (req,) => {
         const out = await readAllInDir("./genders");
         return Response.json(out)
     }
-    return Response.json(JSON.parse(await Deno.readTextFile("./genders" + loc + ".json")))
+    return Response.json(JSON.parse(await Deno.readTextFile("./genders" + loc.toLowerCase() + ".json")))
 })
