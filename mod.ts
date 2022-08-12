@@ -1,7 +1,15 @@
 import { serve } from "https://deno.land/std@0.152.0/http/server.ts"
 
-async function indexDirectory(pathname: string): Promise<(object|string)[]> {
-    const out: (object|string)[] = []
+type Index = [
+    string|{
+        "dirname": string
+        "indices": Index
+    }
+]
+
+async function indexDirectory(pathname: string): Promise<Index> {
+    //@ts-ignore Typescript's being dumb and requiring at least one element
+    const out: Index = []
 
     const contents = Deno.readDir(pathname)
     for await (const item of contents) {
