@@ -1,0 +1,17 @@
+{
+    "names": ["Ember"],
+    "type": "trans",
+    "presentation": {
+        "masc": 0.0,
+        "fem": 0.5,
+        "andro": 0.3,
+        "none": 0.2,
+    },
+    "pronouns": ["she", "they", "it"],
+	  "custom": {
+        "other": {
+            "title": "other",
+            "value": "i really don't know/care just not masc thanks (aka not he/him, etc)"
+        }
+    }
+}
