@@ -1,25 +1,27 @@
-import { serve } from "https://deno.land/std@0.114.0/http/server.ts";
+import { serve } from "https://deno.land/std@0.152.0/http/server.ts"
 
-async function readAllInDir(pathname: string, addendum?: string): Promise<string[]> {
-    const out: string[] = []
-    const files = Deno.readDir(pathname)
-    for await (const file of files) {
-        if (file.isDirectory) {
-            const newAddendum = addendum? file.name+"/"+addendum: file.name
-            out.push(...await readAllInDir(pathname + "/" + file.name, newAddendum))
-            continue
+async function indexDirectory(pathname: string): Promise<(object|string)[]> {
+    const out: (object|string)[] = []
+
+    const contents = Deno.readDir(pathname)
+    for await (const item of contents) {
+        if (item.isDirectory) {
+            const inner = await indexDirectory(pathname + "/" + item.name)
+            out.push({ dirname: item.name, indices: inner })
+        } else {
+            out.push(item.name.slice(0, -5))
         }
-        const name = file.name.substring(0, file.name.lastIndexOf("."))
-        out.push("/" + (addendum? addendum + "/": "") + name)
     }
+
     return out
 }
 
 serve(async (req,) => {
-    const loc = new URL(req.url).pathname;
+    const loc = new URL(req.url).pathname.toLowerCase()
+
     if (loc == "/") {
-        const out = await readAllInDir("./genders");
-        return Response.json(out)
+        return Response.json(await indexDirectory("./genders"))
     }
-    return Response.json(JSON.parse(await Deno.readTextFile("./genders" + loc.toLowerCase() + ".json")))
+
+    return Response.json(JSON.parse(await Deno.readTextFile("./genders" + loc + ".json")))
 })
