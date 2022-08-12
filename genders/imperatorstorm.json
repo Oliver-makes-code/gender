@@ -1,0 +1,17 @@
+{
+  "names": ["ImperatorStorm"],
+  "type": "foxxo",
+  "pronouns": ["they","them","theirs"],
+  "Presentation": {
+    "masc": 0.0,
+    "fem": 0.0,
+    "andro": 0.0,
+    "none": 0.0,
+    "custom": {
+      "foxxo": {
+        "title": "Foxxo",
+        "value": 10.0
+      }
+    }
+  }
+} 

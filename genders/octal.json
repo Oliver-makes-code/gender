@@ -5,9 +5,7 @@
         "masc": 0.0,
         "fem": 6.0,
         "andro": 2.0,
-        "none": 2.0,
-        "custom": {}
+        "none": 2.0
     },
-    "pronouns": ["it", "its", "itself"],
-    "custom": {}
+    "pronouns": ["it", "its", "itself"]
 }
