@@ -1,0 +1,14 @@
+{
+    "names": ["Example"],
+    "type": "Gender name",
+    "presentation": {
+        "masc": 0.0,
+        "fem": 5.0,
+        "andro": 2.5,
+        "none": 2.5,
+        "custom": {}
+        },
+    },
+    "pronouns": ["she", "her", "hers"],
+
+}
