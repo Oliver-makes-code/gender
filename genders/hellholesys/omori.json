@@ -1,0 +1,11 @@
+{
+    "names": ["omori"],
+    "type": "male",
+    "presentation": {
+        "masc": 5.0,
+        "fem": 0.0,
+        "andro": 2.5,
+        "none": 2.5
+        },
+    "pronouns": ["he", "him", "his", "it", "its"]
+}

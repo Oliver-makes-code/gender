@@ -1,0 +1,11 @@
+{
+    "names": ["Neon"],
+    "type": "non-binary",
+    "presentation": {
+        "masc": 2.5,
+        "fem": 0.0,
+        "andro": 5.0,
+        "none": 2.5
+        },
+    "pronouns": ["they", "them", "theirs"]
+}
