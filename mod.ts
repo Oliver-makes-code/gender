@@ -17,11 +17,17 @@ async function indexDirectory(pathname: string): Promise<(object|string)[]> {
 }
 
 serve(async (req,) => {
-    const loc = new URL(req.url).pathname.toLowerCase()
+    try {
+        const loc = new URL(req.url).pathname.toLowerCase()
 
-    if (loc == "/") {
-        return Response.json(await indexDirectory("./genders"))
+        if (loc == "/") {
+            return Response.json(await indexDirectory("./genders"))
+        }
+
+        return Response.json(JSON.parse(await Deno.readTextFile("./genders" + loc + ".json")))
+    } catch {
+        return new Response(undefined, {
+            "status": 404
+        })
     }
-
-    return Response.json(JSON.parse(await Deno.readTextFile("./genders" + loc + ".json")))
 })
