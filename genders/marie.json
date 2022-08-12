@@ -1,0 +1,15 @@
+
+{
+    "names": ["Marie"],
+    "type": null,
+    "presentation": {
+        "masc": 3.0,
+        "fem": 7.0,
+        "andro": 5.0,
+        "none": 9.0,
+        "__comment__": "Percentages of presentation."
+    },
+    "pronouns": ["they", "them", "theirs", "fae", "faer", "faers", "she", "her", "hers"],
+        }
+    }
+}
