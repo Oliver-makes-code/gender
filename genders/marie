@@ -1,0 +1,37 @@
+{
+  "names": [
+    "Marie"
+  ],
+  "type": "Marie",
+  "presentation": {
+    "masc": 3,
+    "fem": 7,
+    "andro": 9,
+    "none": 1,
+    "custom": {
+      "custom_presentation": {
+        "title": "very fluid",
+        "value": 12
+      }
+    },
+    "__comment__": "Percentages of presentation."
+  },
+  "pronouns": [
+    "fae",
+    "faer",
+    "faers",
+    "they",
+    "them",
+    "theirs",
+    "she",
+    "her",
+    "hers"
+  ],
+  "custom": {
+    "custom_property": {
+      "title": "This gender sucks.",
+      "value": "123123123"
+    }
+  },
+  "__comment__": "Dont."
+}
