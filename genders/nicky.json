@@ -1,6 +1,6 @@
 {
-    "names": ["Example"],
-    "type": "Gender name",
+    "names": ["Nicky"],
+    "type": "transfeminine/female",
     "presentation": {
         "masc": 0.0,
         "fem": 5.0,
