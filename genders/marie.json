@@ -5,8 +5,7 @@
         "masc": 3.0,
         "fem": 7.0,
         "andro": 5.0,
-        "none": 9.0,
-        "__comment__": "Percentages of presentation."
+        "none": 9.0
     },
-    "pronouns": ["they", "them", "theirs", "fae", "faer", "faers", "she", "her", "hers"],
+    "pronouns": ["they", "them", "theirs", "fae", "faer", "faers", "she", "her", "hers"]
 }
