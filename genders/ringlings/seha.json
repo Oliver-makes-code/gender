@@ -1,0 +1,17 @@
+{
+    "names": ["Seha", "Sii", "Sisi"],
+    "type": "Cishet Female",
+    "presentation": {
+        "masc": 0.0,
+        "fem": 1.0,
+        "andro": 0.0,
+        "none": 0.0
+    },
+    "pronouns": ["she", "her"],
+    "custom": {
+        "pkid": {
+            "title": "PluralKit Member ID",
+            "value": "pbhbm"
+        }
+    }
+}
