@@ -63,7 +63,9 @@ function parseIndex(index: Index, indent = 0): string {
     for (const i of index) {
         if (typeof i == "string") {
             if (sub.indexOf(i) == -1) {
-                out += "  ".repeat(indent) + i + "\n"
+                if (indent > 0)
+                    out += "| ".repeat(indent-1) + "|-"
+                out += i + "\n"
             } 
         } else {
             out += "  ".repeat(indent) + i.dirname + "\n"
