@@ -1,9 +1,7 @@
-# Hi, thanks for looking at my gender!
+# Gender API
 
-Make sure to abide by the the license.
+An API for getting people's gender!
+[View it live here!](https://gender.olivermakesco.de/example)
 
 ## PR Policy
-PRs need to be clear and consice, and need to document any and all changes made.
-
-## Disclaimer:
-This is my implementation of the Gender specification, so there may be incompatibilities with software that uses the Gender spec
+Pull request to add your gender to the REST API!

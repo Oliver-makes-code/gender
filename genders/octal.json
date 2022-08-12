@@ -1,0 +1,13 @@
+{
+    "names": ["Octal", "Oliver", "Furry System"],
+    "type": "Agender",
+    "presentation": {
+        "masc": 0.0,
+        "fem": 6.0,
+        "andro": 2.0,
+        "none": 2.0,
+        "custom": {}
+    },
+    "pronouns": ["it", "its", "itself"],
+    "custom": {}
+}

@@ -1,0 +1,25 @@
+{
+    "names": ["Example"],
+    "type": "Gender name",
+    "presentation": {
+        "masc": 0.0,
+        "fem": 0.0,
+        "andro": 0.0,
+        "none": 0.0,
+        "custom": {
+            "custom_presentation": {
+                "title": "Custom Presentation Name",
+                "value": 0.0
+            }
+        },
+        "__comment__": "Percentages of presentation."
+    },
+    "pronouns": ["they", "them", "theirs"],
+    "custom": {
+        "custom_property": {
+            "title": "Custom gender property",
+            "value": "Anything can go here!"
+        }
+    },
+    "__comment__": "Pull request to add your gender!"
+}
