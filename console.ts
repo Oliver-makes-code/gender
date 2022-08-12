@@ -93,7 +93,7 @@ async function fetchGender(gender: string) {
     console.log("  " + content.presentation.masc*10 + "% Masculine")
     console.log("  " + content.presentation.fem*10 + "% Feminine")
     console.log("  " + content.presentation.andro*10 + "% Androgynous")
-    console.log("  " + content.presentation.andro*10 + "% None")
+    console.log("  " + content.presentation.none*10 + "% None")
 
     if (content.presentation.custom) {
         for (const id in content.presentation.custom) {
