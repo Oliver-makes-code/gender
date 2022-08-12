@@ -5,9 +5,7 @@
         "masc": 1.0,
         "fem": 0.0,
         "andro": 0.0,
-        "none": 0.0,
-        "custom": {}
+        "none": 0.0
     },
-    "pronouns": ["he", "him"],
-    "custom": {}
+    "pronouns": ["he", "him"]
 }
