@@ -3,15 +3,15 @@
     "type": "trans",
     "presentation": {
         "masc": 0.0,
-        "fem": 0.5,
-        "andro": 0.3,
-        "none": 0.2
+        "fem": 5.0,
+        "andro": 2.0,
+        "none": 3.0
     },
-    "pronouns": ["she", "they", "it"],
+    "pronouns": ["it", "its", "itself", "she", "her", "herself"],
     "custom": {
         "other": {
             "title": "other",
-            "value": "i really don't know/care just not masc thanks (aka not he/him, etc)"
+            "value": "it/its nice :)"
         }
     }
 }
